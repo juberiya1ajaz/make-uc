@@ -6,21 +6,21 @@ export default function UploadNFT() {
 
     const { active, account, library, connector, activate, deactivate } = useWeb3React()
 
-  async function connect() {
-    try {
-      await activate(injected)
-    } catch (ex) {
-      console.log(ex)
+    async function connect() {
+        try {
+            await activate(injected)
+        } catch (ex) {
+            console.log(ex)
+        }
     }
-  }
 
-  async function disconnect() {
-    try {
-      deactivate()
-    } catch (ex) {
-      console.log(ex)
+    async function disconnect() {
+        try {
+            deactivate()
+        } catch (ex) {
+            console.log(ex)
+        }
     }
-  }
 
     const [file, setFile] = useState();
     function handleChange(e) {
@@ -37,10 +37,10 @@ export default function UploadNFT() {
             </div>
 
             <div className="flex flex-col items-center justify-center">
-      <button onClick={connect} className="py-2 mt-20 mb-4 text-lg font-bold text-white rounded-lg w-56 bg-blue-600 hover:bg-blue-800">Connect to MetaMask</button>
-      {active ? <span>Connected with <b>{account}</b></span> : <span>Not connected</span>}
-      <button onClick={disconnect} className="py-2 mt-20 mb-4 text-lg font-bold text-white rounded-lg w-56 bg-blue-600 hover:bg-blue-800">Disconnect</button>
-    </div>
+                <button onClick={connect} className="py-2 mt-20 mb-4 text-lg font-bold text-white rounded-lg w-56 bg-blue-600 hover:bg-blue-800">Connect to MetaMask</button>
+                {active ? <span className="text-white">Connected with <b>{account}</b></span> : <span>Not connected</span>}
+                <button onClick={disconnect} className="py-2 mt-20 mb-4 text-lg font-bold text-white rounded-lg w-56 bg-blue-600 hover:bg-blue-800">Disconnect</button>
+            </div>
 
             <div className="grid place-items-center">
                 <div className="relative z-10 w-full max-w-lg my-20">
