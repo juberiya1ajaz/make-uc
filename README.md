@@ -15,7 +15,20 @@ APP NAME is a web application where users can take a Parkinson's test to check i
 - React Js: For frontend
 - Node Js: For backend
 - AWS: For training the model
+- Hedera: For deploying smart contracts
 - Tailwind: For styling and animations
+
+## 🤖 [AWS] Greatest Social Impact
+
+We are using AWS to train our model. We are using AWS Sagemaker to train our model. We are using AWS Lambda to deploy our model. We are using AWS API Gateway to deploy our model. We are using AWS S3 to store our data. We are using AWS CloudWatch to monitor our model.
+
+## 🏥 [Medpace] Set The Pace
+
+We have a page where users can come and upload their data that can be used for training the model. In return for the data, we will give them an NFT. The NFT token can be used to buy medicines from our pharmacy. We have a smart contract that will be deployed on Hedera Hashgraph. The smart contract will be used to store the data and the tokens. The data will be used to train the model and the tokens will be used to buy medicines from our pharmacy.
+
+## 🔐 Best Blockchain Project Using Hedera
+
+We are using **Hedera’s testnet** to deploy our **smart contracts**. Hedera is a decentralized public network that utilizes the Hashgraph consensus algorithm to overcome the traditional limitations of blockchain and allow one to create the next era of fast, fair, and secure applications.
 
 ## 🧠 Challenges we ran into
 
