@@ -38,7 +38,7 @@ We are using **Hedera’s testnet** to deploy our **smart contracts**. Hedera is
 ## 🏅 Accomplishments that we're proud of
 
 - Completing the project in the given time frame.
-- Using the Google AWS to train the model.
+- Using AWS to train the model.
 
 ## 📖 What we learned
 
