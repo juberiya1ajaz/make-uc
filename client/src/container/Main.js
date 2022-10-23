@@ -4,6 +4,7 @@ import Home from '../pages/Home';
 import Disease from '../pages/Disease';
 import Alzheimer from '../pages/Alzheimer';
 import Test from '../pages/Test';
+import DonateDate from '../pages/DonateDate';
 
 export default function Main() {
     return (
@@ -14,7 +15,7 @@ export default function Main() {
                 <Route path="/disease" element={<Disease />} />
                 <Route path="/alzheimer" element={<Alzheimer />} />
                 <Route path="/test" element={<Test />} />
-                {/* <Route path="/parkinson" element={<ParkinsonPred />} /> */}
+                <Route path="/donate" element={<DonateDate />} />
             </Routes>
         </BrowserRouter>
     )
