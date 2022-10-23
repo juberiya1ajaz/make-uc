@@ -9,7 +9,7 @@ export default function Navbar() {
     return (
         <div >
             <nav className="flex items-center py-2 flex-wrap px-4 text-fontColor tracking-wider">
-                <Link to="/"><span className="p-2 mr-4 inline-flex items-center text-4xl md:text-5xl cursor-pointer font-base text-white">APP NAME
+                <Link to="/"><span className="p-2 mr-4 inline-flex items-center text-4xl md:text-5xl cursor-pointer font-base text-white">ClinicalCue
                 </span></Link>
                 <button className="lg:hidden right-0 absolute md:px-8 px-6 mr-1 mb-1 ease-linear transition-all duration-150" type="button" onClick={() => setShowNavbar(true)} aria-hidden="false" aria-label="button">
                     <HiOutlineMenuAlt3 className="h-7 w-7" aria-hidden="false" />
@@ -23,7 +23,7 @@ export default function Navbar() {
                                     <div className="flex items-start justify-between p-5 border-solid rounded-t">
                                         <Link activeClass="active" to="about" spy={true} smooth={true} offset={-150} duration={250}>
                                             <div className="text-2xl font-base tracking-wide cursor-pointer">
-                                                APP NAME
+                                                ClinicalCue
                                             </div>
                                         </Link>
 
@@ -48,8 +48,8 @@ export default function Navbar() {
                                             <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-secondary cursor-pointer text-white">Disease Prediction</span>
                                         </Link>
 
-                                        <Link to="/doctors">
-                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-secondary cursor-pointer text-white">Doctors</span>
+                                        <Link to="/donate">
+                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-secondary cursor-pointer text-white">Donate Data</span>
                                         </Link>
 
                                     </div>
@@ -72,8 +72,8 @@ export default function Navbar() {
                             <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-secondary cursor-pointer text-white">Disease Prediction</span>
                         </Link>
 
-                        <Link to="/doctors">
-                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-secondary cursor-pointer text-white">Doctors</span>
+                        <Link to="/donate">
+                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-secondary cursor-pointer text-white">Donate Data</span>
                         </Link>
 
                     </div>

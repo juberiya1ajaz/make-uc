@@ -11,7 +11,7 @@ export default function Home() {
             <div className='md:grid md:grid-cols-2 items-center'>
                 <div className=''>
                     <h1 className='text-3xl md:text-6xl'>Who we are</h1>
-                    <p className='text-xl md:text-2xl py-4 tracking-wider text-justify'>APP NAME is a web application where users can take a parkinsons test to check if you have Parkinson or not. We also have a story telling game specially for elderly people to diagnose Alzheimer and improve cognitive skills.</p>
+                    <p className='text-xl md:text-2xl py-4 tracking-wider text-justify'>ClinicalCue is a web application where users can take a parkinsons test to check if you have Parkinson or not. We also have a story telling game specially for elderly people to diagnose Alzheimer and improve cognitive skills.</p>
 
                     <Link to="/disease">
                         <button className='bg-secondary py-2 px-8 rounded-md text-xl md:text-2xl'>Disease Prediction</button>
@@ -29,7 +29,7 @@ export default function Home() {
                 </div>
                 <div className=''>
                     <h1 className='text-5xl'>What else do we have</h1>
-                    <p className='text-xl md:text-2xl py-4 tracking-wider'>APP NAME is a web app where you can:
+                    <p className='text-xl md:text-2xl py-4 tracking-wider'>ClinicalCue is a web app where you can:
                     </p>
                     <ul className="text-2xl">
                         <li className="list-disc">Smart disease prediction.</li>

@@ -1,4 +1,4 @@
-# APP NAME
+# ClinicalCue
 
 ## 💡 Inspiration
 
@@ -8,7 +8,7 @@ There is no easy way to diagnose Alzheimer's disease. However, there are some th
 
 ## 💻 What it does
 
-APP NAME is a web application where users can take a Parkinson's test to check if they have Parkinson's or not. We also have a storytelling game, especially for elderly people to diagnose Alzheimer's and improve cognitive skills. The application will help people in need of medical care and supervision to understand the implications of different diseases in a very intuitive way. It will also help people to find the right medical care/supervision for themselves.
+ClinicalCue is a web application where users can take a Parkinson's test to check if they have Parkinson's or not. We also have a storytelling game, especially for elderly people to diagnose Alzheimer's and improve cognitive skills. The application will help people in need of medical care and supervision to understand the implications of different diseases in a very intuitive way. It will also help people to find the right medical care/supervision for themselves.
 
 ## ⚙️ How we built it
 
@@ -44,7 +44,7 @@ We are using **Hedera’s testnet** to deploy our **smart contracts**. Hedera is
 
 - How to use AWS to predict the disease.
 
-## 🚀 What's next for APP NAME
+## 🚀 What's next for ClinicalCue
 
 - Building a mobile app
 - Deploying the web app.
