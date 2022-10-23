@@ -2,6 +2,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from '../components/Navbar';
 import Home from '../pages/Home';
 import Disease from '../pages/Disease';
+import Alzheimer from '../pages/Alzheimer';
+import Test from '../pages/Test';
 
 export default function Main() {
     return (
@@ -10,6 +12,9 @@ export default function Main() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/disease" element={<Disease />} />
+                <Route path="/alzheimer" element={<Alzheimer />} />
+                <Route path="/test" element={<Test />} />
+                {/* <Route path="/parkinson" element={<ParkinsonPred />} /> */}
             </Routes>
         </BrowserRouter>
     )
