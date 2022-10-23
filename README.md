@@ -32,8 +32,8 @@ We are using **Hedera’s testnet** to deploy our **smart contracts**. Hedera is
 
 ## 🧠 Challenges we ran into
 
-- As I don't have any experience with ML, I learned how to use AWS to build the ML model.
-- It was the first time I used the AWS Machine so I had to learn how to use it.
+- As We don't have any experience with ML, We learned how to use AWS to build the ML model.
+- It was the first time We used the AWS Machine so We had to learn how to use it.
 
 ## 🏅 Accomplishments that we're proud of
 
